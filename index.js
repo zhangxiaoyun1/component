@@ -29,9 +29,13 @@ var option = {
     yAxis: {
         type: 'value'
     },
+    tooltip: {
+        trigger: 'axis'
+    },
     series: [{
         data: [6, 9, 8, 8, 7],
         type: 'line',
+        name:'排名'
     }]
 };
 var myChart = echarts.init(document.getElementById('echarts'));
