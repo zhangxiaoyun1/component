@@ -30,7 +30,12 @@ var option = {
         type: 'value'
     },
     tooltip: {
-        trigger: 'axis'
+        trigger: 'axis',
+        axisPointer:{
+            lineStyle:{
+                width:2
+            }
+        }
     },
     series: [{
         data: [6, 9, 8, 8, 7],
